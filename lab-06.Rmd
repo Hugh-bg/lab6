@@ -39,6 +39,7 @@ df <- tribble(
   "8/2/20", 16, 9.2,
   "8/3/20", 15.9, 9.2
   )
+  df$combined_cases <- df$no_mask + df$mask
   
 ```
 
@@ -46,7 +47,6 @@ df <- tribble(
 ### Exercise 2
 
 ```{r better-viz}
-# add code here
 ```
 
 
